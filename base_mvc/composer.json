@@ -1,0 +1,19 @@
+{
+    "name": "84373/base_mvc",
+    
+    "authors": [
+        {
+            "name": "manhleodz",
+            "email": "doanducmanh100@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },    
+    "require": {
+        "illuminate/database": "*",
+        "phroute/phroute": "*"
+    }
+}

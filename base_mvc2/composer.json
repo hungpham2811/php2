@@ -1,0 +1,21 @@
+{
+    "name": "84373/base_mvc2",
+    
+    "authors": [
+        {
+            "name": "hungpv",
+            "email": "hungpvph25702@fpt.edu.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^9.51",
+        "illuminate/events": "^9.51",
+        "phroute/phroute": "^2.2",
+        "eftec/bladeone": "^4.8"
+    }
+}
